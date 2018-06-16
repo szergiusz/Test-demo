@@ -1,0 +1,84 @@
+.navbar {
+	margin: 0 20px;
+	border-radius: 5px;
+}
+.navbar span {
+	font-size: 24px;
+	
+
+}
+.navbar .container {
+	position: relative;
+	top:50%;
+	transform: translateY(15%);
+}
+.about {
+	height: 100vh;
+	background: url(../img/cyber-church-pastors-and-the-internet.jpg) no-repeat;
+background-size: cover;
+}
+.about h3 {
+	margin:0;
+	width: 50%;
+	text-align: center;
+	position: relative;
+	top:50%;
+	transform: translateY(-50%);
+	margin-right: auto;
+	margin-left: auto;
+	color:#fff;
+}
+.weCan {
+	height: 100vh;
+}
+.weCan .item {
+	width:50%;
+	display: inline-block;
+	float: left;
+	height: 100%;
+	position: relative;
+	transition: 3s;
+}
+.weCan .item .text {
+	position: relative;
+	top:50%;
+	transform: translateY(-50%);
+	transition: 1s;
+}
+.weCan .item span {
+	font-size:28px;
+	color: #fff;
+}
+.weCan .index_1 {
+	background: url(../img/pasha.jpg) no-repeat;
+	background-size: cover;
+	
+}
+.weCan .index_2 {
+	background: url(../img/bibliya.jpg) no-repeat;
+	background-size: cover;
+}
+.weCan .index_3 {
+	background: url(../img/хор-uai-1032x735.jpg) no-repeat;
+	background-size: cover;
+}
+.weCan .index_4 {
+	background: url(../img/02d88fe8-d084-48a6-b9ae-0bcb61ae8642.jfif) no-repeat;
+	background-size: cover;
+}
+.item .text p {
+	color: #fff;
+}
+.index_4 .text p {
+	color: #000;
+}
+
+  a { 
+    text-decoration: none; 
+    color: gold;
+    font-size: 50px;
+	transition: .6s;
+   }
+   a:hover { 
+    text-decoration: none; 
+   }
